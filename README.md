@@ -9,6 +9,7 @@ pre-req:
 to start locally:
 run these initial setup from empty database:
 ```
+pip install -r requirements.txt
 python manage.py migrate
 python manage.py collectstatic
 python manage.py createsuperuser --username=$admin_username --email=$admin_email
