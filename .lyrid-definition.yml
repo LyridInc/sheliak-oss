@@ -1,0 +1,12 @@
+name: auth
+description: This is a Lyrid application to create a authentication services
+ignoreFiles: .git .idea venv node_modules
+modules:
+- name: bare
+  language: python3.8
+  web: django
+  description: Backend service for sheliak
+  functions:
+  - name: quickstart
+    entry: wsgi.py
+    description: the entry point for the function
